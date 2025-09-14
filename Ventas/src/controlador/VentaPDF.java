@@ -217,7 +217,10 @@ public class VentaPDF {
             //Mensaje
            Paragraph mensaje = new Paragraph();
            mensaje.add(Chunk.NEWLINE);
-           mensaje.add("¡Gracias por su compra!");
+           //mensaje.add("¡Gracias por su compra!");
+           //mensaje.add("Factura generada por el sistema");
+           //mensaje.add("Factura oficial - versión corregida");
+          mensaje.add("Factura generada por el sistema");
            mensaje.setAlignment(Element.ALIGN_CENTER);
            doc.add(mensaje);
            
