@@ -49,7 +49,7 @@ public class Factura extends javax.swing.JFrame {
     // fin de varibles de calculos globales
     private int auxIdDetalle=1;
     //Conexion cx;
-    
+    //Refactoriza clase Factura.java para mejorar modularidad
     public Factura() {
         initComponents();
         this.setSize(new Dimension(800, 600));
