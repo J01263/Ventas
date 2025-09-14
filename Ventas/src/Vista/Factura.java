@@ -310,6 +310,7 @@ private void listaTablaProductos(){
 
     private void jButton1_busca_clienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_busca_clienteActionPerformed
 // Obtener y limpiar el texto ingresado por el usuario
+// Obtener y limpiar el texto ingresado por el usuario
     String clienteBuscar = txt_cliente_buscar.getText().trim();
 
     // Validación básica: evitar consultas vacías
