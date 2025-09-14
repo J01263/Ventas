@@ -1,0 +1,9 @@
+Sistema de Facturación en Java
+Este proyecto consiste en el desarrollo de un sistema de facturación implementado en Java, utilizando el entorno de desarrollo NetBeans y una base de datos MySQL administrada mediante PHPMyAdmin. Su propósito es automatizar el proceso de venta en negocios pequeños o medianos, permitiendo registrar productos, calcular totales, emitir comprobantes en formato PDF y validar entradas de forma eficiente.
+Componentes principales del sistema
+Autenticación de usuarios: Módulo de login que verifica credenciales contra la base de datos, asegurando acceso seguro.
+Registro de ventas: Permite ingresar productos, cantidades y precios, calculando automáticamente subtotales y totales.
+Generación de factura en PDF: Utiliza la librería iTextPDF para crear comprobantes con formato profesional, listando productos, precios y totales.
+Validaciones y manejo de errores: Se implementan controles para evitar entradas inválidas (como letras en campos numéricos), usando estructuras try-catch y condicionales.
+Gestión de base de datos: La información de productos, usuarios y ventas se almacena en MySQL, con consultas SQL integradas en el código Java.
+Eliminación dinámica de productos: El usuario puede retirar productos de la tabla de ventas antes de emitir la factura.
