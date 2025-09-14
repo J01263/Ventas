@@ -493,7 +493,8 @@ int idArrayList=0;
     }//GEN-LAST:event_jTable1_productosMouseClicked
 
     private void jButton_RegistrarventaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_RegistrarventaActionPerformed
-  // 🧱 Instanciar objetos necesarios
+// Mejora: se agrega encabezado personalizado en la factura PDF
+        // 🧱 Instanciar objetos necesarios
     CabeceraVenta cabeceraVenta = new CabeceraVenta();
     DetalleVenta detalleVenta = new DetalleVenta();
     Ctrl_RegistrarVenta controlVenta = new Ctrl_RegistrarVenta();
