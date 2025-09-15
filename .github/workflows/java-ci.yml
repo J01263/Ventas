@@ -18,5 +18,13 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Descargar iTextPDF
+      run: |
+        mkdir -p lib
+        curl -L -o lib/itextpdf-5.5.13.3.jar https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar
+
     - name: Compilar proyecto
-      run: javac -d bin Ventas/src/**/*.java
+      run: |
+        mkdir -p bin
+        find Ventas/src -name "*.java" > sources.txt
+        javac -cp "lib/itextpdf-5.5.13.3.jar" -d bin @sources.txt
