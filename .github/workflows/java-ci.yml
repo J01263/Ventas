@@ -18,15 +18,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-
-    - name: Descargar dependencias externas
-      run: |
-        mkdir -p lib
-        curl -L -o lib/itextpdf-5.5.12.jar https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.5.12/itextpdf-5.5.12.jar
-        curl -L -o lib/jcalendar-1.4.jar https://repo1.maven.org/maven2/net/sf/jcalendar/jcalendar/1.4/jcalendar-1.4.jar
-        curl -L -o lib/mysql-connector-java-5.1.46.jar https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar
-        curl -L -o lib/AbsoluteLayout.jar https://repo1.maven.org/maven2/net/sf/absolutelayout/AbsoluteLayout/1.0/AbsoluteLayout-1.0.jar || echo "Descarga manual requerida"
-
     - name: Compilar proyecto
       run: |
         mkdir -p bin
