@@ -1,4 +1,4 @@
-name: Java CI
+ame: Java CI
 
 on:
   push:
@@ -18,6 +18,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+
     - name: Descargar dependencias externas
       run: |
         mkdir -p lib
@@ -31,3 +32,4 @@ jobs:
         mkdir -p bin
         find Ventas/src -name "*.java" > sources.txt
         javac -cp "lib/*" -d bin @sources.txt
+
