@@ -18,9 +18,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+
     - name: Compilar proyecto
       run: |
         mkdir -p bin
         find Ventas/src -name "*.java" > sources.txt
-        javac -cp "lib/*" -d bin @sources.txt
+        javac -cp "Ventas/libs/*" -d bin @sources.txt
+
 
