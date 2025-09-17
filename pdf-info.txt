@@ -1,4 +1,1 @@
-Este módulo genera comprobantes PDF usando iText.
-Nueva línea de prueba para evidenciar cambios
-Nueva línea de prueba para evidenciar cambios
-// Versión en develop
+// Versión final combinada del módulo PDF Generator
