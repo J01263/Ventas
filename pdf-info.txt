@@ -1,2 +1,3 @@
 Este módulo genera comprobantes PDF usando iText.
 Nueva línea de prueba para evidenciar cambios
+Nueva línea de prueba para evidenciar cambios
