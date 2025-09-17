@@ -1,1 +1,2 @@
 Nueva línea de prueba en pdf-info.txt para evidenciar cambios
+// Versión en feature/conflicto
