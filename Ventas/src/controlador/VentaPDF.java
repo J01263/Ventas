@@ -157,6 +157,10 @@ public class VentaPDF {
             doc.add(espacio);
             
             //AGREGAR LOS PRODUCTOS
+            //AGREGAR LOS PRODUCTOS
+            //AGREGAR LOS PRODUCTOS
+            //AGREGAR LOS PRODUCTOS
+            //AGREGAR LOS PRODUCTOS
             PdfPTable tablaProducto = new PdfPTable(4);
             tablaProducto.setWidthPercentage(100);
             tablaProducto.getDefaultCell().setBorder(0);

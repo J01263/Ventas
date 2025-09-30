@@ -50,6 +50,7 @@ public class Factura extends javax.swing.JFrame {
     private int auxIdDetalle=1;
     //Conexion cx;
     //Refactoriza clase Factura.java para mejorar modularidad
+    //Refactoriza clase Factura.java para mejorar modularidad
     public Factura() {
         initComponents();
         this.setSize(new Dimension(800, 600));
