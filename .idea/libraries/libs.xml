@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ventas/libs/itext5-itextpdf-5.5.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ventas/libs/AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ventas/libs/mysql-connector-java-5.1.46-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ventas/libs/mysql-connector-java-8.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ventas/libs/jcalendar-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
