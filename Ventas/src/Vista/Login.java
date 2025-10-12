@@ -28,7 +28,7 @@ public class Login extends javax.swing.JFrame {
     public void validar() {
         String correo = txtCorreo.getText();
         String pass = String.valueOf(txtPass.getPassword());
-        
+        // Variables declaration - do not modify  
         if (!"".equals(correo) || !"".equals(pass)) {
             lg = login.log(correo, pass);
             
